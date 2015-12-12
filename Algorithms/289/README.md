@@ -24,5 +24,5 @@ Write a function to compute the next state (after one update) of the board given
 ```
 这里这样标识是有一个目的，就是做模2运算后下一状态相同的余也相同
 
-
+参考[链接](http://segmentfault.com/a/1190000003819277)
 
