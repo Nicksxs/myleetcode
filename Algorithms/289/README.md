@@ -22,7 +22,8 @@ Write a function to compute the next state (after one update) of the board given
 2: 表示当前状态是1，下一状态是0,
 3: 表示当前状态是0，下一状态是1.  
 ```
-这里这样标识是有一个目的，就是做模2运算后下一状态相同的余也相同
+这里这样标识是有一个目的，就是做模2运算后下一状态相同的余也相同  
+主要的方法就是用4个状态标识符表示前后两次状态  
 
 参考[链接](http://segmentfault.com/a/1190000003819277)
 
