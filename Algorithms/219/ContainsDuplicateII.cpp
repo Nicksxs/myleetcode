@@ -30,7 +30,7 @@ public:
         // }
 
 
-        // method 0
+        // method 0  超时
         // int len = nums.size();
         // for(int i = 0; i < len - 1; i++){
         //     if(k >= len)
