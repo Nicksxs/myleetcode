@@ -33,6 +33,12 @@ Special thanks to [@mithmatt](https://leetcode.com/discuss/user/mithmatt) for ad
 
 <div>
 
+<div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
+
+<span class="hidebutton">[Amazon](/company/amazon/) [Facebook](/company/facebook/) [Google](/company/google/) [Microsoft](/company/microsoft/) [Zenefits](/company/zenefits/)</span></div>
+
+<div>
+
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
 <span class="hidebutton">[Depth-first Search](/tag/depth-first-search/) [Breadth-first Search](/tag/breadth-first-search/) [Union Find](/tag/union-find/)</span></div>
