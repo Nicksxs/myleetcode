@@ -18,6 +18,9 @@ public:
         else
             *lower_bound(v.begin(), v.end(), n) = n;
     }
+    for(int i = 0; i < v.size(); i++){
+        cout << v[i] <<endl;
+    }
  
     return v.size();
     }
