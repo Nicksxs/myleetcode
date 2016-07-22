@@ -14,6 +14,12 @@ Supposed the linked list is `1 -> 2 -> 3 -> 4` and you are given the third node 
 
 <div>
 
+<div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
+
+<span class="hidebutton">[Adobe](/company/adobe/) [Apple](/company/apple/) [Microsoft](/company/microsoft/)</span></div>
+
+<div>
+
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
 <span class="hidebutton">[Linked List](/tag/linked-list/)</span></div>
