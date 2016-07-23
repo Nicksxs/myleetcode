@@ -18,18 +18,22 @@ public:
                 queToPop.pop();
                 for(int i = 0; i < str.size(); i++)
                 {
-                    if (j == str[i])
-                        continue;
-                    char temp = str[i];
-                    str[i] = j;
-                    if(str == endWord)
-                        return distance + 1;
-                    if(wordList.count(str) > 0)
+                    for(char j = 'a'; j <= 'z'; j++)
                     {
-                        queToPush.push(str);
-                        wordList.erase(str);
+                        if (j == str[i])
+                            continue;
+                        char temp = str[i];
+                        str[i] = j;
+                        if(str == endWord)
+                            return distance + 1;
+                        if(wordList.count(str) > 0)
+                        {
+                            queToPush.push(str);
+                            wordList.erase(str);
+                        }
+                        str[i] = temp;
                     }
-                    str[i] = temp;
+                    
                 }
             }
             swap(queToPush, queToPop);
