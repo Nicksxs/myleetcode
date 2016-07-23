@@ -1,0 +1,1 @@
+assign the value of the next node to the current one and assign the next node's next point to current one's next node
