@@ -9,7 +9,7 @@ public:
             return 0;
         int distance = 1;
         queue<string> queToPush, queToPop;
-        queToPop.push(beginWord)
+        queToPop.push(beginWord);
         while(dict.size() > 0 && !queToPop.empty())
         {
             while(!queToPop.empty())
