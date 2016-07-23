@@ -5,7 +5,7 @@ public:
             return 0;
         if (beginWord.empty() || endWord.empty())
             return 1;
-        if (dict.size() == 0)
+        if (wordList.size() == 0)
             return 0;
         int distance = 1;
         queue<string> queToPush, queToPop;
