@@ -1,15 +1,15 @@
 class Solution {
 public:
     int ladderLength(string beginWord, string endWord, unordered_set<string>& wordList) {
-        if (start.size() != end.size())
+        if (beginWord.size() != endWord.size())
             return 0;
-        if (start.empty() || end.empty())
+        if (beginWord.empty() || endWord.empty())
             return 1;
         if (dict.size() == 0)
             return 0;
         int distance = 1;
         queue<string> queToPush, queToPop;
-        queToPop.push(start)
+        queToPop.push(beginWord)
         while(dict.size() > 0 && !queToPop.empty())
         {
             while(!queToPop.empty())
@@ -22,12 +22,12 @@ public:
                         continue;
                     char temp = str[i];
                     str[i] = j;
-                    if(str == end)
+                    if(str == endWord)
                         return distance + 1;
-                    if(dict.count(str) > 0)
+                    if(wordList.count(str) > 0)
                     {
                         queToPush.push(str);
-                        dict.erase(str);
+                        wordList.erase(str);
                     }
                     str[i] = temp;
                 }
