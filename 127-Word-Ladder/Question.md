@@ -28,9 +28,3 @@ return its length `5`.
 [Subscribe](/subscribe/) to see which companies asked this question
 
 </div>
-
-<div>
-
-<div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
-
-<span class="hidebutton">[Amazon](/company/amazon/) [Facebook](/company/facebook/) [LinkedIn](/company/linkedin/) [Snapchat](/company/snapchat/) [Yelp](/company/yelp/)</span></div>
