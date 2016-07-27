@@ -1,0 +1,1 @@
+it's a quite easy problem,but should noticed that when earse a number from the vector,then the size of vector will be smaller than last
