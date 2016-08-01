@@ -14,6 +14,12 @@ Input is guaranteed to be within the range from 1 to 3999.
 
 <div>
 
+<div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
+
+<span class="hidebutton">[Bloomberg](/company/bloomberg/) [Facebook](/company/facebook/) [Microsoft](/company/microsoft/) [Uber](/company/uber/) [Yahoo](/company/yahoo/)</span></div>
+
+<div>
+
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
 <span class="hidebutton">[Math](/tag/math/) [String](/tag/string/)</span></div>
