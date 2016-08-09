@@ -18,7 +18,7 @@ public:
                 p2 = p2->next = head;
             head = head->next;
         }
-        p2->next = null
+        p2->next = NULL
         p1->next = &node2;
         return node1;
     }
