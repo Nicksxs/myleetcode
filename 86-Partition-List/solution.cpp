@@ -19,7 +19,7 @@ public:
             head = head->next;
         }
         p2->next = NULL;
-        p1->next = node2->next;
+        p1->next = node2.next;
         return &node1;
     }
 };
