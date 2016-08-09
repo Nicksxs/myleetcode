@@ -20,6 +20,6 @@ public:
         }
         p2->next = NULL;
         p1->next = node2.next;
-        return &node1;
+        return node1.next;
     }
 };
