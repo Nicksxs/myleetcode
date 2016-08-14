@@ -10,7 +10,13 @@ public:
             else j = mid;
         }
         if(nums[i] != target) return ret;
-        else ret[0] = i;
+        else {
+            ret[0] = i;
+            if((i+1) < (nums.size() - 1) && nums[i+1] > target){
+                ret[1] = i;
+                return ret;
+            }
+        }
         j = nums.size() - 1;
         while(i < j){
             mid = (i + j) / 2 + 1;
