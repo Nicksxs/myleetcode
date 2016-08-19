@@ -1,0 +1,1 @@
+[题解链接](https://discuss.leetcode.com/topic/29536/clean-c-solution-and-explaination-o-mn-space-with-o-1-time/2)很清晰的做法，适合我这种低智商的
