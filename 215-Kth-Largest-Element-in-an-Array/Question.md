@@ -21,6 +21,12 @@ Special thanks to [@mithmatt](https://leetcode.com/discuss/user/mithmatt) for ad
 
 <div>
 
+<div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
+
+<span class="hidebutton">[Amazon](/company/amazon/) [Apple](/company/apple/) [Bloomberg](/company/bloomberg/) [Facebook](/company/facebook/) [Microsoft](/company/microsoft/) [Pocket Gems](/company/pocket-gems/)</span></div>
+
+<div>
+
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
 <span class="hidebutton">[Heap](/tag/heap/) [Divide and Conquer](/tag/divide-and-conquer/)</span></div>
