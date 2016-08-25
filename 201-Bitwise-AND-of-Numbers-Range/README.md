@@ -1,0 +1,1 @@
+[非常非常机智的方法](http://www.cnblogs.com/grandyang/p/4431646.html)
