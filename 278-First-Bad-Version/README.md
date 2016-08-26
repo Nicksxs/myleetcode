@@ -1,0 +1,1 @@
+[code location](https://discuss.leetcode.com/topic/23597/short-c-answer-and-minimize-api-calls)
