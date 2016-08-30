@@ -15,7 +15,7 @@ public:
         reverse(retVal.begin(), retVal.end());
         return retVal;
     }
-    void orderTraver(TreeNode* root, vector<vector<int>> &v, int currLevel){
+    void orderTraver(TreeNode* root, vector<vector<int>> &v, int currLevel){   /*这里是引用，切记*/
         if(root == NULL) return;
         
         if(v.empty() || currLevel > (v.size() -1))
