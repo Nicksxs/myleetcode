@@ -1,0 +1,1 @@
+[中序遍历后就是从小到大排序的，扫一遍看是否是从小到大排序即可](http://blog.csdn.net/linhuanmars/article/details/23810735)
