@@ -9,10 +9,10 @@ public:
         }
         for(int i = 1; i <= s.size(); i++){
             for(int j = t.size(); j >= 1; j--){
-                cout << "s[i-1]:" << s[i-1] << " " << "t[j-1]" << t[j-1] << endl;
+                // cout << "s[i-1]:" << s[i-1] << " " << "t[j-1]" << t[j-1] << endl;
                 if(s[i-1] == t[j-1])
                     match[j] += match[j-1];
-                cout << "match[j]: " << match[j] << endl;
+                // cout << "match[j]: " << match[j] << endl;
             }
         }
         return match[t.size()];
