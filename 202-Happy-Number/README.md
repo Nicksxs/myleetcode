@@ -1,0 +1,1 @@
+[使用类似与判断链表是否成环的方法](https://discuss.leetcode.com/topic/12587/my-solution-in-c-o-1-space-and-no-magic-math-property-involved)
