@@ -1,0 +1,1 @@
+同一位置上的字幕个数要是一样的[link](https://discuss.leetcode.com/topic/12981/my-6-lines-solution)
