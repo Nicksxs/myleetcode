@@ -21,6 +21,8 @@ public:
 		for (int cnt = 1; p; cnt++, p = p->next) if (rand() % cnt == 0) ans = p->val;
 		return ans;
     }
+private:
+ListNode *head;
 };
 
 /**
