@@ -1,0 +1,1 @@
+还是用水塘抽样吧[discuss](https://discuss.leetcode.com/topic/58297/share-c-o-n-time-solution)
