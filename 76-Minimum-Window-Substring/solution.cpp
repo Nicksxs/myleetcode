@@ -38,6 +38,6 @@ public:
                  }                 
             }  
       if(minV == INT_MAX) return "";  
-            return s.substr(min_start, minV)
+            return s.substr(min_start, minV);
     }
 };
