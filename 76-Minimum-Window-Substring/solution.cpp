@@ -7,9 +7,9 @@ public:
         int expectCount[256];
         memset(appearCount, 0, 256*sizeof(appearCount[0]));
         memset(expectCount, 0, 256*sizeof(appearCount[0]));
-        for(int i =0; i < T.size(); i++)
+        for(int i =0; i < t.size(); i++)
         {
-            expectCount[T[i]]++;
+            expectCount[t[i]]++;
         }
         int minV = INT_MAX, min_start = 0;  
         int wid_start=0;  
@@ -21,7 +21,7 @@ public:
                   appearCount[s[wid_end]]++;  
                   if(appearCount[s[wid_end]] <= expectCount[s[wid_end]])
                        appeared ++;                      
-                 }  
+             }  
              if(appeared == t.size())
              {
                   while(appearCount[s[wid_start]] > expectCount[s[wid_start]]
